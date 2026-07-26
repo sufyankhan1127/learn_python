@@ -55,14 +55,44 @@
 #     print("All numbers are equal")
 
 
-#number divisible by 5 and 11
-a=int(input("Enter the first value:"))
+# #number divisible by 5 and 11
+# a=int(input("Enter the first value:"))
 
-if(a%55==0):
-    print("a is divisible by 5 and 11")
-elif(a%5==0 and a%11!=0):
-    print("a is divisible by 5 but not by 11")
-elif(a%11==0 and a%5!=0):
-    print("a is divisible by 11 but not by 5")
+# if(a%55==0):
+#     print("a is divisible by 5 and 11")
+# elif(a%5==0 and a%11!=0):
+#     print("a is divisible by 5 but not by 11")
+# elif(a%11==0 and a%5!=0):
+#     print("a is divisible by 11 but not by 5")
+# else:
+#     print("a is not divisible by 5 and 11")
+
+
+
+
+# #check vowel or consonant
+# a=input("Enter the character: ")
+# if a in 'aeiouAEIOU':
+#     print("a is vowel")
+# else:
+#     print("a is consonant")
+
+
+# #check alphabet or number or float or special character
+# a=input("Enter the character: ")
+
+# if (a.isdigit()):
+#     print("a is number")
+# elif(a.isdecimal()):
+#     print("a is decimal")
+# elif(a.isalpha()):
+#     print("a is alphabet")
+# else:
+#     print("a is special character")
+
+#check leap year or not
+year=int(input("Enter the year: "))
+if (year%4==0 and year%100!=0) or (year%400==0):
+    print("year is leap year")
 else:
-    print("a is not divisible by 5 and 11")
+    print("year is not leap year")
