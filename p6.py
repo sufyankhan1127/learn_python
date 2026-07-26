@@ -1,0 +1,22 @@
+# operators in python
+
+a=int(input("Enter 1st number: "))
+b=int(input("Enter 2nd number: "))
+print(a>b)
+print(a<b)
+print(a==b)
+print(a!=b)
+print(a>=b)
+print(a<=b)
+print(a is b)
+print(a is not b)
+print(a and b)
+print(a or b)
+print(not a)
+print(not b)
+print(a&b)
+print(a|b)
+print(a^b)
+print(a<<b)
+print(a>>b)
+
